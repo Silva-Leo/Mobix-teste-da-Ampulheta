@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(107, 107, 107);
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div pre {
+    margin: 0%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+
+#formulario input {
+    margin: 1em;
+    width: 15em ;
+    height: 2em;
+    background-color:darkgrey;
+    border: none;
+    cursor:pointer;
+}
+
+button{
+    width: 20%;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 1s;
+    background-color: darkgray;
+    color: black;
+}
+
+#conteudo {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
